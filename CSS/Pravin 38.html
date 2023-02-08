@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Transform Property </title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            height: 80vh;
+            background: greenyellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+         #box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            /* background: greenyellow; */
+            background-color: blueviolet;
+            border: 2px solid red;
+            border-radius: 8px;
+            height: 300px;
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-style: italic;
+            font-size: 40px;
+            transition: all 2s ease-in-out;
+            
+
+         }
+         #box:hover{
+           /* transform: rotate(360deg); */
+           /* transform: skew(45deg); */
+           /* transform: scale(2); */
+           /* transform: translateX(120px); */
+           /* transform: translateY(120px); */
+           transform: translate(120px ,120px);
+         }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="box"> This is my Box </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Strings in Javascript </title>
+    
+    <style>
+        .container{
+            border: 2px solid blue;
+            border-radius: 3px;
+            background-color: blueviolet;
+            display: grid;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1> Strings and String method </h1>
+        <div id="content"></div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero dolor quos recusandae nihil cupiditate alias
+            assumenda suscipit unde, deserunt error accusantium esse, quae iste harum nisi vel adipisci, ut neque
+            blanditiis. Eos, ut sapiente!</p>
+    </div>
+    <script>
+        var String = "This";
+        var name = "Pravin";
+        var channel = "Code with Pravin"
+        var message = "Pravin is a good boy";
+        var temp = `${name} He is a good boy and he has a channel and after that and he has a channel called ${channel}`;
+
+        // console.log(String + name + message);
+        // console.log(temp);
+        // var len = name.length;
+        // console.log(`length of name is ${len}`);
+        // console.log("Hello World\nPravin");
+    //     var y = new String("this");
+    // console.log(y);
+        document.getElementById('content').innerHTML = '<h3> this is an h3 heading </h3>' 
+    </script>
+</body>
+
+</html>

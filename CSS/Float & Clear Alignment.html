@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Alignment </title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .Container {
+            width: 1000px;
+            border: 4px solid purple;
+            background-color: sandybrown;
+            margin: 40px auto;
+        }
+
+        .item {
+            border: 3px solid blue;
+            margin: 12px 4px;
+            padding: 14px 3px;
+            background: rgb(225, 234, 225);
+        }
+
+        #fruits {
+            float: left;
+            width: 45%;
+        }
+
+        #Computers {
+            float: clear both;
+            width: 45%;
+        }
+
+        #Stationery {
+            float: left;
+            width: 100%;
+        }
+
+        #Sports {
+            float: clear both;
+        }
+
+        p,
+        h3 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Container">
+
+        <div id="fruits" class="item">
+            <h3> Fruits </h3>
+            <p id="Fruitspara" class="para"> Apple Mango Orange Banana Musk-melon Pomegrante</p>
+        </div>
+        <div id="Computer" class="item">
+            <h3> Computer </h3>
+            <p id="Computer" class="para"> hp DELL acer lenovo ASUS Keyboard Monitor Mouse </p>
+        </div>
+        <div id="Stationery" class="item">
+            <h3> Stationery </h3>
+            <p id="Stationery" class="para"> Books Textbook Workbook Notebook Calculator Watch </p>
+        </div>
+        <div id="Sports" class="item">
+            <h3> Stationery </h3>
+            <p id="Sports" class="para"> Books Textbook Workbook Notebook Calculator Watch </p>
+        </div>
+    </div>
+
+</body>
+
+</html>

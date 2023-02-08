@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and After Seudo Selector </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <style>
+      body{
+        background-color: black;
+        color: blanchedalmond;
+        background: url(https://images.unsplash.com/photo-1662652610624-4c12ff68385b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80) center;
+      }
+      section{
+        align-items: center;
+        margin: 3px 23px;
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid green; */
+        /* justify-items: center; */
+        justify-content: center;
+        height: 244px;
+      }
+      .navigation{
+        display: flex;
+        font-family: "Trirong";
+      }
+      li{
+        list-style: none;
+        padding: 32px 24px ;
+        /* border: 2px solid green; */
+      }
+      /* section::before{
+        content: "this is a content";
+      }     */
+      h3{
+        font-size: 2rem;
+      }
+
+      p{
+        text-align: center;
+      }
+      
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="bar">
+            <ul class="navigation">
+                <li class="item"> Home</li>
+                <li class="item"> About</li>
+                <li class="item"> Services</li>
+                <li class="item"> Contact us</li>
+            </ul>
+        </nav>
+        
+    </header>
+    <section>
+        <h3> Welcome to Coding World</h3>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolor laboriosam quas dolores incidunt a officia at sit reprehenderit amet.</p>
+    </section>
+    <!-- <hr> -->
+</body>
+</html>
